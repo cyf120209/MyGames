@@ -43,4 +43,4 @@ systemfont                = "Cambria"
 useSingleProcessorMode    = false
 skipCompatibilityChecks   = false
 useArchives               = true
-itemPickup                = "filterBroken"
+itemPickup                = "showNone"
