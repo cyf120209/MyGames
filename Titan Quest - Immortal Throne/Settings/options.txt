@@ -1,6 +1,6 @@
 networkSpeed              = medium
 networkMTU                = 1400
-displayDamage             = false
+displayDamage             = true
 quickBuy                  = true
 itemComparison            = true
 extraRollovers            = true

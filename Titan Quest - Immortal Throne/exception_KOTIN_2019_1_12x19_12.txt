@@ -1,0 +1,393 @@
+Game Information 
+-------------------------------------------------------------------------------
+Titan Quest version TQ Anniversary v1.57 (0x24d20b9f)
+
+SteamID: 0x1100001077e52e2
+Options:
+	GAME SPEED: 2
+	LANGUAGE: Chinese
+	TEXTURES: 2
+	SHADOW QUALITY: 2
+	DETAIL: 2
+	REFLECTIONS: 2
+	UI SCALE: 0
+	DETAIL_OBJECTS: 1
+	ADVANCED_EFFECTS: 1
+	ANTIALIASING: 1
+	FULLSCREEN: 1
+	SYNC_TO_REFRESH: 1
+	DETAIL_OBJECTS: 1
+	CAMERA_SHAKE: 1
+Game info:
+	Game name: cyf
+	Mod name: 
+	Bounce mod: 0
+	Num players: 1
+	Difficulty: 1
+	Is MP: 0
+	Is MP Server: 1
+	Is SP: 1
+	Game start time: 48ef
+	Game elapsed time: 0
+	Auto party: 0
+
+Exception Log
+-------------------------------------------------------------------------------
+
+Executable: E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\TQ.exe
+System:     KOTIN
+Date:       星期六, 12 一月 2019
+Time:       07:12:28 下午
+
+Exception Information
+-------------------------------------------------------------------------------
+
+Code:       0xc0000005 (EXCEPTION_ACCESS_VIOLATION)
+Flags:      0x0
+Address:    0x522b59ea
+Parameters: 0x0 0x410fd000 
+
+Registers
+-------------------------------------------------------------------------------
+
+EAX = 0xe6e460
+EBX = 0x410fcffe
+ECX = 0x1
+EDX = 0x0
+EIP = 0x522b59ea
+EBP = 0xa8
+EDI = 0x24cee978
+ESI = 0x7e
+
+Call Stack
+-------------------------------------------------------------------------------
+
+GAME::Item::GetDropMeshOverride + 1018 bytes
+0xe6e460
+0xe6e490
+0x3f19999a
+
+Game Log 
+-------------------------------------------------------------------------------
+StreamQuestProperties (write) - C:\Users\Administrator\Documents/My Games/Titan Quest - Immortal Throne/SaveData/Main/_cyf418/Levels_World_World01.map//Epic//8d5478dad731059801f1da45da65f0d8.que
+StreamQuestProperties (write) - C:\Users\Administrator\Documents/My Games/Titan Quest - Immortal Throne/SaveData/Main/_cyf418/Levels_World_World01.map//Epic//f4dbad5431f6a22a38528f1aedd74930.que
+Could Not Translate To Floor
+Could Not Translate To Floor
+Could Not Translate To Floor
+StreamQuestProperties (write) - C:\Users\Administrator\Documents/My Games/Titan Quest - Immortal Throne/SaveData/Main/_cyf418/Levels_World_World01.map//Epic//9050f46d57d7a86d18fa5916364c7704.que
+After Load For Level XPack\Levels\Area01_Rhodes\Rhodes_TropicalForest_01.lvl
+End Loading Level XPack\Levels\Area01_Rhodes\Rhodes_TropicalForest_01.lvl
+Add player cyf418, class tagCClass36
+Add player cyf418, class tagCClass36
+Add player cyf418, class tagCClass36
+Unloading level XPack2\Levels\DarkLands\FjordSEb.lvl
+
+Saved level state XPack2\Levels\DarkLands\FjordSEb.lvl
+Unloading level XPack2\Levels\DarkLands\FjordSW.lvl
+
+Saved level state XPack2\Levels\DarkLands\FjordSW.lvl
+Add player cyf418, class tagCClass36
+Unloading level XPack2\Levels\DarkLands\FjordNE.lvl
+
+Saved level state XPack2\Levels\DarkLands\FjordNE.lvl
+Unloading level XPack2\Levels\DarkLands\Underground\FjordCave01.lvl
+
+Saved level state XPack2\Levels\DarkLands\Underground\FjordCave01.lvl
+Unloading level XPack2\Levels\DarkLands\FjordSE.lvl
+
+Saved level state XPack2\Levels\DarkLands\FjordSE.lvl
+Unloading level XPack2\Levels\DarkLands\FjordNW.lvl
+
+Saved level state XPack2\Levels\DarkLands\FjordNW.lvl
+Add player cyf418, class tagCClass36
+Add player cyf418, class tagCClass36
+Monster failed to PickRandomPointInVicinity
+Add player cyf418, class tagCClass36
+Add player cyf418, class tagCClass36
+Add player cyf418, class tagCClass36
+Modules
+-------------------------------------------------------------------------------
+
+2018/12/16    C:\Windows\SYSTEM32\AUDIOSES.DLL (0x61880000) 
+2018/12/16    C:\Windows\System32\RPCRT4.dll (0x77080000) 
+2018/4/11     C:\Windows\SYSTEM32\AVRT.dll (0x689d0000) 
+2018/12/16    C:\Windows\System32\MSCTF.dll (0x73ef0000) 
+2018/4/11     C:\Windows\System32\KERNEL32.DLL (0x76d40000) 
+2018/12/16    C:\Windows\System32\KERNELBASE.dll (0x74a90000) 
+2018/4/11     C:\Windows\System32\WS2_32.dll (0x76e20000) 
+2018/12/16    C:\Windows\System32\SspiCli.dll (0x73ed0000) 
+2018/12/16    C:\Windows\System32\bcryptPrimitives.dll (0x771d0000) 
+2018/12/16    C:\Windows\System32\sechost.dll (0x760f0000) 
+2018/12/16    C:\Windows\System32\USER32.dll (0x76140000) 
+2018/4/11     C:\Windows\System32\win32u.dll (0x741b0000) 
+2018/12/16    C:\Windows\System32\GDI32.dll (0x74c80000) 
+2018/12/16    C:\Windows\System32\gdi32full.dll (0x76320000) 
+2018/4/11     C:\Windows\System32\msvcp_win.dll (0x77150000) 
+2018/12/16    C:\Windows\System32\ucrtbase.dll (0x742b0000) 
+2018/12/16    C:\Windows\System32\ADVAPI32.dll (0x74040000) 
+2018/4/11     C:\Windows\System32\msvcrt.dll (0x76f10000) 
+2018/4/11     C:\Windows\System32\rasadhlp.dll (0x72ce0000) 
+2018/4/11     C:\Windows\System32\cfgmgr32.dll (0x74170000) 
+2018/12/16    C:\Windows\System32\shcore.dll (0x740d0000) 
+2018/12/16    C:\Windows\System32\combase.dll (0x772c0000) 
+2018/12/16    C:\Windows\System32\windows.storage.dll (0x744d0000) 
+2018/4/11     C:\Windows\System32\shlwapi.dll (0x76c50000) 
+2018/12/16    C:\Windows\System32\kernel.appcore.dll (0x74160000) 
+2018/4/11     C:\Windows\System32\profapi.dll (0x74cb0000) 
+2018/4/11     C:\Windows\System32\powrprof.dll (0x76fd0000) 
+2018/4/11     C:\Windows\SYSTEM32\WINMM.dll (0x738d0000) 
+2018/4/11     C:\Windows\System32\FLTLIB.DLL (0x76490000) 
+2018/4/11     C:\Windows\System32\imagehlp.dll (0x76e90000) 
+2018/12/16    C:\Windows\System32\ole32.dll (0x743d0000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\steam_api.dll (0x52e80000) 
+2018/4/11     C:\Windows\SYSTEM32\winmmbase.dll (0x738a0000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\ProjectClientAPIReleaseWin32.dll (0x52c40000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\NatLib.dll (0x52b70000) 
+2018/4/11     C:\Windows\System32\CRYPT32.dll (0x768e0000) 
+2018/4/11     C:\Windows\System32\MSASN1.dll (0x768d0000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\Engine.dll (0x52770000) 
+2012/11/5     C:\Windows\SYSTEM32\MSVCP110.dll (0x521b0000) 
+2012/11/5     C:\Windows\SYSTEM32\MSVCR110.dll (0x520d0000) 
+2018/4/11     C:\Windows\System32\PSAPI.DLL (0x740c0000) 
+2018/4/11     C:\Windows\SYSTEM32\IPHLPAPI.DLL (0x73d70000) 
+2018/12/16    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17134.472_none_4102c1a8450eed42\COMCTL32.dll (0x5e1a0000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\DevIL.dll (0x10000000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\mss32.dll (0x21100000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\binkw32.dll (0x18000000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\Game.dll (0x52240000) 
+2018/12/16    C:\Windows\SYSTEM32\DINPUT8.dll (0x607c0000) 
+2018/4/11     C:\Windows\System32\IMM32.DLL (0x74d70000) 
+2019/1/4      E:\Program Files (x86)\Steam\gameoverlayrenderer.dll (0x51d70000) 
+2018/4/11     C:\Windows\SYSTEM32\inputhost.dll (0x6abf0000) 
+2018/12/16    C:\Windows\SYSTEM32\wintypes.dll (0x6ee80000) 
+2018/12/16    C:\Windows\SYSTEM32\CoreMessaging.dll (0x6fb00000) 
+2018/12/16    C:\Windows\SYSTEM32\CoreUIComponents.dll (0x6f8a0000) 
+2018/4/11     C:\Windows\SYSTEM32\ntmarta.dll (0x73b70000) 
+2019/1/4      E:\Program Files (x86)\Steam\steamclient.dll (0x540c0000) 
+2018/4/11     C:\Windows\System32\SETUPAPI.dll (0x764a0000) 
+2018/12/16    C:\Windows\System32\OLEAUT32.dll (0x4c50000) 
+2018/4/11     C:\Windows\SYSTEM32\VERSION.dll (0x73eb0000) 
+2019/1/4      E:\Program Files (x86)\Steam\tier0_s.dll (0x671d0000) 
+2019/1/4      E:\Program Files (x86)\Steam\vstdlib_s.dll (0x5fcb0000) 
+2018/4/11     C:\Windows\SYSTEM32\MSWSOCK.dll (0x70e90000) 
+2018/4/11     C:\Windows\SYSTEM32\Secur32.dll (0x733c0000) 
+2019/1/4      E:\Program Files (x86)\Steam\steam.dll (0x51c00000) 
+2014/2/14     E:\Program Files (x86)\Steam\Steam2.dll (0x51930000) 
+2018/4/11     C:\Windows\system32\napinsp.dll (0x73220000) 
+2018/4/11     C:\Windows\system32\pnrpnsp.dll (0x72f40000) 
+2018/4/11     C:\Windows\system32\NLAapi.dll (0x72d30000) 
+2018/12/16    C:\Windows\SYSTEM32\DNSAPI.dll (0x72c50000) 
+2018/4/11     C:\Windows\System32\NSI.dll (0x76ca0000) 
+2018/4/11     C:\Windows\System32\winrnr.dll (0x73210000) 
+2018/4/11     C:\Windows\System32\fwpuclnt.dll (0x72900000) 
+2018/12/16    C:\Windows\SYSTEM32\bcrypt.dll (0x73ab0000) 
+2018/12/16    C:\Windows\System32\SHELL32.dll (0x74da0000) 
+2007/3/29     E:\Program Files (x86)\Steam\DbgHelp.dll (0x51810000) 
+2017/6/20     E:\Program Files (x86)\Steam\CSERHelper.dll (0x517e0000) 
+2018/4/11     C:\Windows\SYSTEM32\dhcpcsvc6.DLL (0x72870000) 
+2018/4/11     C:\Windows\SYSTEM32\dhcpcsvc.DLL (0x73330000) 
+2018/4/11     C:\Windows\SYSTEM32\DSOUND.DLL (0x63470000) 
+2018/4/11     C:\Windows\System32\MMDevApi.dll (0x61820000) 
+2018/4/11     C:\Windows\System32\DEVOBJ.dll (0x72130000) 
+2018/12/16    C:\Windows\System32\PROPSYS.dll (0x73440000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\TQ.exe (0x1230000) 
+2018/4/11     C:\Windows\system32\uxtheme.dll (0x735f0000) 
+2018/12/16    C:\Windows\SYSTEM32\ntdll.dll (0x77610000) 
+2018/4/11     C:\Windows\system32\dwmapi.dll (0x735c0000) 
+2018/12/16    C:\Windows\System32\TextInputFramework.dll (0x70f20000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\Direct3D.dll (0x5fc90000) 
+2018/12/16    C:\Windows\SYSTEM32\d3d9.dll (0x68fd0000) 
+2009/9/4      C:\Windows\SYSTEM32\d3dx9_42.dll (0x515f0000) 
+2018/3/25     C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c1a085cc86772d3f\nvldumd.dll (0x66690000) 
+2018/12/16    C:\Windows\System32\WINTRUST.DLL (0x762d0000) 
+2018/4/11     C:\Windows\SYSTEM32\CRYPTSP.dll (0x73b00000) 
+2018/12/16    C:\Windows\system32\rsaenh.dll (0x73ad0000) 
+2018/3/25     C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c1a085cc86772d3f\nvd3dum.dll (0x62510000) 
+2018/4/11     C:\Windows\System32\dxdiagn.dll (0x515a0000) 
+2018/12/16    C:\Windows\System32\dxgi.dll (0x71330000) 
+2018/12/16    C:\Windows\System32\d3d11.dll (0x71ce0000) 
+2018/12/16    C:\Windows\System32\d3d12.dll (0x51450000) 
+2018/4/11     C:\Windows\System32\msvcp110_win.dll (0x53260000) 
+2018/4/11     C:\Windows\system32\wbem\wbemprox.dll (0x6ef60000) 
+2018/4/11     C:\Windows\SYSTEM32\wbemcomn.dll (0x6aa40000) 
+2018/4/11     C:\Windows\system32\wbem\wbemsvc.dll (0x6c040000) 
+2018/4/11     C:\Windows\system32\wbem\fastprox.dll (0x6a970000) 
+2018/4/11     C:\Windows\system32\winbrand.dll (0x51420000) 
+2018/4/11     C:\Windows\System32\DEVRTL.dll (0x70d00000) 
+2018/4/11     C:\Windows\System32\SPINF.dll (0x5dd20000) 
+2018/4/11     C:\Windows\System32\drvstore.dll (0x51350000) 
+2018/4/11     C:\Windows\SYSTEM32\gpapi.dll (0x73310000) 
+2018/3/25     C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c1a085cc86772d3f\nvwgf2um.dll (0x64eb0000) 
+2018/3/24     C:\Windows\system32\nvspcap.dll (0x68ba0000) 
+2018/4/11     C:\Windows\System32\D3DSCache.dll (0x51240000) 
+2018/4/11     C:\Windows\System32\USERENV.dll (0x73e70000) 
+2018/12/16    C:\Windows\SYSTEM32\twinapi.appcore.dll (0x95a0000) 
+2018/12/16    C:\Windows\System32\RMCLIENT.dll (0x725d0000) 
+2018/4/11     C:\Windows\SYSTEM32\cryptnet.dll (0x732c0000) 
+2018/4/11     C:\Windows\SYSTEM32\WINNSI.DLL (0x72cf0000) 
+2018/4/11     C:\Windows\SYSTEM32\dcomp.dll (0x71ba0000) 
+2018/4/11     C:\Windows\SYSTEM32\HID.DLL (0x6c3a0000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\mssmp3.asi (0x26f00000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\mssvoice.asi (0x26400000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\mssa3d.m3d (0x22100000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\mssds3d.m3d (0x22300000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\mssdx7.m3d (0x22600000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\msseax.m3d (0x8200000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\mssrsx.m3d (0x22700000) 
+2018/4/11     C:\Windows\SYSTEM32\MSACM32.dll (0x5e600000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\msssoft.m3d (0x22400000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\MilesRedist\mssdsp.flt (0x24100000) 
+2018/4/11     C:\Windows\System32\Windows.UI.dll (0x6ac50000) 
+2018/10/21    E:\Program Files (x86)\Steam\steamapps\common\Titan Quest Anniversary Edition\pathengine.dll (0x17de0000) 
+2018/4/11     C:\Windows\SYSTEM32\usp10.dll (0x72d10000) 
+2018/4/11     C:\Windows\system32\msctfuimanager.dll (0x613d0000) 
+2018/12/16    C:\Windows\system32\DUI70.dll (0x61260000) 
+2018/12/21    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.472_none_42ecd1cc44e43e73\Comctl32.dll (0x72160000) 
+2018/4/11     C:\Windows\system32\DUser.dll (0x611e0000) 
+2018/12/16    C:\Windows\SYSTEM32\UIAutomationCore.dll (0x61040000) 
+2018/4/11     C:\Windows\SYSTEM32\sxs.dll (0x60fb0000) 
+2018/4/11     C:\Windows\System32\UIAnimation.dll (0x60f60000) 
+2018/4/11     C:\Windows\System32\oleacc.dll (0x737d0000) 
+2018/12/16    C:\Windows\system32\dwrite.dll (0x6f0f0000) 
+2018/12/16    C:\Windows\SYSTEM32\D3D10Warp.dll (0x6e140000) 
+2018/4/11     C:\Windows\system32\directmanipulation.dll (0x512d0000) 
+2018/4/11     C:\Windows\system32\xmllite.dll (0x69fd0000) 
+2018/4/11     C:\Windows\System32\clbcatq.dll (0x76cb0000) 
+2018/4/11     C:\Windows\System32\CRYPTBASE.dll (0x73ec0000) 
+2018/9/30     D:\Program Files (x86)\IQIYI Video\LStyle\6.7.82.6547\Accelerator\browserhook.dll (0x63580000) 
+
+Processes
+-------------------------------------------------------------------------------
+
+[System Process]
+System
+Registry
+smss.exe
+csrss.exe
+wininit.exe
+services.exe
+lsass.exe
+svchost.exe
+fontdrvhost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+igfxCUIService.exe
+svchost.exe
+NVDisplay.Container.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+dasHost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+SearchIndexer.exe
+svchost.exe
+svchost.exe
+svchost.exe
+ZhuDongFangYu.exe
+svchost.exe
+spoolsv.exe
+svchost.exe
+runSW.exe
+nvcontainer.exe
+svchost.exe
+svchost.exe
+NvTelemetryContainer.exe
+svchost.exe
+svchost.exe
+svchost.exe
+SecurityHealthService.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+SgrmBroker.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+csrss.exe
+winlogon.exe
+fontdrvhost.exe
+dwm.exe
+NVDisplay.Container.exe
+svchost.exe
+nvcontainer.exe
+sihost.exe
+svchost.exe
+svchost.exe
+taskhostw.exe
+explorer.exe
+ShellExperienceHost.exe
+SearchUI.exe
+RuntimeBroker.exe
+RuntimeBroker.exe
+ctfmon.exe
+360tray.exe
+ChsIME.exe
+WindowsInternal.ComposableShell.Experiences.TextInput.InputApp.exe
+SwUSB.exe
+NVIDIA Web Helper.exe
+conhost.exe
+RtkNGUI64.exe
+TWCU.exe
+svchost.exe
+WmiPrvSE.exe
+Microsoft.Photos.exe
+RuntimeBroker.exe
+QyClient.exe
+QyPlayer.exe
+QyFragment.exe
+AndroidService.exe
+QyKernel.exe
+rundll32.exe
+ApplicationFrameHost.exe
+Steam.exe
+steamwebhelper.exe
+steamwebhelper.exe
+steamwebhelper.exe
+steamwebhelper.exe
+steamwebhelper.exe
+TQ.exe
+nethelper360.exe
+audiodg.exe
+GameOverlayUI.exe
+svchost.exe
+steamwebhelper.exe
+SearchProtocolHost.exe
+360chrome.exe
+360chrome.exe
+360chrome.exe
+360chrome.exe
+360chrome.exe
+SearchFilterHost.exe
+
